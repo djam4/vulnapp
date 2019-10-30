@@ -1,6 +1,5 @@
 #This is a vulnerable container, don't use this in production!
 FROM tomcat:7-jdk8-openjdk-slim                                                                                                                                
-FROM ubuntu:16.04
 
 RUN set -ex; \
     apt-get update; \
